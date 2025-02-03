@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
@@ -14,23 +15,33 @@
   </head>
   <body>
     <header
-      class="h-64 flex items-center justify-evenly"
-      style="background: #4600ff"
+      class="h-64 flex items-center justify-evenly flex-col md:flex-row"
+      style="background: #00d8ff"
     >
-      <img src="./emoji.png" alt="emoji" class="h-48 rounded-full bg-white" />
+      <img
+        src="./emoji.png"
+        alt="emoji"
+        class="w-16 md:w-32 lg:w-48 rounded-full bg-white"
+      />
       <section class="text-white">
-        <p>Hello I a'm</p>
-        <h1 class="text-3xl font-bold">Varsha Bhagat</h1>
-        <h2 class="text-2xl">FE Senior Specialist, Engineering</h2>
+        <p class="text-base md:text-sm lg:text-base">Hello I a'm</p>
+        <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">
+          Varsha Bhagat
+        </h1>
+        <h2 class="text-xs md:text-xl lg:text-2xl bold">
+          FE Senior Engineer
+        </h2>
       </section>
       <section class="text-white flex flex-col">
-        <a href="tel:9180971295611">+91 80971295611</a>
-        <a href="mailto:varshabhagat07@gmail.com" class="mb-2">varshabhagat07@gmail.com</a>
+        <a class="text-xs md:text-base" href="tel:918971295611">+91 8971295611</a>
+        <a class="text-xs md:text-base" href="mailto:varshabhagat07@gmail.com" class="mb-2"
+          >varshabhagat07@gmail.com</a
+        >
         <a
           href="./varshaBhagatReact.pdf"
           target="_blank"
-          class="bg-sky-600 p-1 rounded-lg"
-          style="background: #0078ff"
+          class="bg-sky-600 p-1 rounded-lg text-xs md:text-base"
+          style="background: #00f5ff"
         >
           <i class="fa fa-download" style="color: white"></i> Downloand Resume
         </a>
@@ -38,11 +49,11 @@
     </header>
     <section class="flex">
       <div
-        class="w-80 flex flex-col items-center"
+        class="flex flex-col items-center"
         style="width: 400px; background: #fed7d745"
       >
-        <ul class="mt-8 list-disc">
-          <h2 class="text-2xl bold">Skills</h2>
+        <ul class="mt-8 p-8 text-sm md:text-base">
+          <h2 class="text-lg md:text-xl lg:text-2xl bold">Skills</h2>
           <li>React JS</li>
           <li>Jeykll</li>
           <li>SCSS</li>
@@ -54,49 +65,76 @@
           <li>Jenkins</li>
           <li>JIRA</li>
         </ul>
-        <ul class="mt-8 list-disc">
-          <h2 class="text-2xl">Language</h2>
+        <ul class="mt-8 p-8 text-sm md:text-base">
+          <h2 class="text-lg md:text-xl lg:text-2xl bold">Language</h2>
           <li>English</li>
           <li>Hindi</li>
         </ul>
       </div>
       <div class="p-10">
         <section>
-          <h2 class="text-2xl bold">Projects</h2>
-          <h3 class="text-xl bold mt-4">CCRV Widget Frontend</h3>
-          <span class="bold">Technologies Used:</span> React, Ui Tiles, Tailwind
-          CSS, Git, Jira, Jenkis, Docker
-          <p>
-            Creative Concept Revision Variation (CCRV) - A variation is a change made to
-            a CCR , which can be done by anyone with access to the CCRV widget,
-            without the need of a creative designer (and workflow).
-          </p>
-          <h3 class="text-xl bold mt-8">Vdx Studio</h3>
-          <span class="bold">Technologies Used:</span> Vue, JS, CSS, Git
-          <p>
-            Jira. Engineered VDX Studio, an in-house ad production tool,
-            increasing campaign execution efficiency by 30% for both standard
-            and advanced campaigns, including CTV units.
-          </p>
-          <h3 class="text-xl bold mt-8">Sixt Orange App Website</h3>
-          <span class="bold">Technologies Used:</span> React, Stencil, Git, Jira.
-          <p>
-            Designed and launched the official Sixt Car Rental website using
-            Stencil JS and CSS, achieving a 30% boost in user engagement.
-          </p>
-          <h3 class="text-xl bold mt-8">Treebo Official Website</h3>
-          <span class="bold">Technologies Used:</span> React, SCSS, Git, Jira.
-          <p>
-            Designed and implemented user interfaces for the marketing website
-            and application, increasing user engagement by 25%.
-          </p>
+          <h2 class="text-xl md:text-2xl lg:text-3xl bold">Projects</h2>
+          <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
+            CCRV Widget Frontend
+          </h3>
+          <ul class="list-disc">
+            <li>
+              <span class="bold">Technologies Used:</span> React, Ui Tiles,
+              Tailwind CSS, Git, Jira, Jenkis, Docker
+            </li>
+            <li>
+              Creative Concept Revision Variation (CCRV) - A variation is a
+              change made to a CCR , which can be done by anyone with access to
+              the CCRV widget, without the need of a creative designer (and
+              workflow).
+            </li>
+          </ul>
+          <h3 class="text-lg md:text-xl lg:text-2xl bold mt-8">Vdx Studio</h3>
+          <ul class="list-disc">
+            <li>
+              <span class="bold">Technologies Used:</span> Vue, JS, CSS, Git
+            </li>
+            <li>
+              Jira. Engineered VDX Studio, an in-house ad production tool,
+              increasing campaign execution efficiency by 30% for both standard
+              and advanced campaigns, including CTV units.
+            </li>
+          </ul>
+          <h3 class="text-lg md:text-xl lg:text-2xl bold mt-8">
+            Sixt Orange App Website
+          </h3>
+          <ul class="list-disc">
+            <li>
+              <span class="bold">Technologies Used:</span> React, Stencil, Git,
+              Jira.
+            </li>
+            <li>
+              Designed and launched the official Sixt Car Rental website using
+              Stencil JS and CSS, achieving a 30% boost in user engagement.
+            </li>
+          </ul>
+          <h3 class="text-lg md:text-xl lg:text-2xl bold mt-8">
+            Treebo Official Website
+          </h3>
+          <ul class="list-disc">
+            <li>
+              <span class="bold">Technologies Used:</span> React, SCSS, Git,
+              Jira.
+            </li>
+            <li>
+              Designed and implemented user interfaces for the marketing website
+              and application, increasing user engagement by 25%.
+            </li>
+          </ul>
         </section>
         <section>
           <section class="mt-8">
-            <h2 class="text-2xl bold">Experience</h2>
-            <div class="flex items-center justify-between">
-              <h3 class="text-xl bold mt-4">Engineering Leadership</h3>
-              <p>Sep 2021 - Present</p>
+            <h2 class="text-xl md:text-2xl lg:text-3xl bold">Experience</h2>
+            <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+              <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
+                Engineering Leadership
+              </h3>
+              <p class="text-xs md:text-base">Sep 2021 - Present</p>
             </div>
             <ul class="list-disc">
               <h3 class="text-lg">Vdx.tv</h3>
@@ -111,11 +149,13 @@
             </ul>
           </section>
           <section class="mt-8">
-            <h2 class="text-2xl bold">Experience</h2>
+            <h2 class="text-xl md:text-2xl lg:text-3xl bold">Experience</h2>
             <section>
-              <div class="flex items-center justify-between">
-                <h3 class="text-xl bold mt-4">Engineering Leadership</h3>
-                <p>Sep 2021 - Present</p>
+              <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+                <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
+                  Engineering Leadership
+                </h3>
+                <p class="text-xs md:text-base">Sep 2021 - Present</p>
               </div>
               <ul class="list-disc">
                 <h3 class="text-lg">Vdx.tv</h3>
@@ -130,11 +170,11 @@
               </ul>
             </section>
             <section>
-              <div class="flex items-center justify-between">
-                <h3 class="text-xl bold mt-4">
+              <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+                <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
                   Software Development Engineer (Frontend)
                 </h3>
-                <p>Apr 2019 - Aug 2021</p>
+                <p class="text-xs md:text-base">Apr 2019 - Aug 2021</p>
               </div>
               <ul class="list-disc">
                 <h3 class="text-lg">Sixt Research & Development</h3>
@@ -154,11 +194,11 @@
               </ul>
             </section>
             <section>
-              <div class="flex items-center justify-between">
-                <h3 class="text-xl bold mt-4">
+              <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+                <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
                   Software Development Engineer (Frontend)
                 </h3>
-                <p>Oct 2017 - Mar 2019</p>
+                <p class="text-xs md:text-base">Oct 2017 - Mar 2019</p>
               </div>
               <ul class="list-disc">
                 <h3 class="text-lg">Treebo Hotels</h3>
@@ -180,11 +220,11 @@
               </ul>
             </section>
             <section>
-              <div class="flex items-center justify-between">
-                <h3 class="text-xl bold mt-4">
+              <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+                <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
                   Software Development Engineer (Frontend)
                 </h3>
-                <p>Jul 2016 - Sep 2017</p>
+                <p class="text-xs md:text-base">Jul 2016 - Sep 2017</p>
               </div>
               <ul class="list-disc">
                 <h3 class="text-lg">HashedIn by Deloite</h3>
@@ -204,7 +244,7 @@
         </section>
         <section class="mt-8">
           <ul class="list-disc">
-            <h2 class="text-2xl bold">Achievements</h2>
+            <h2 class="text-xl md:text-2xl lg:text-3xl bold">Achievements</h2>
             <li>Best Employee award in Sixt BANGALORE</li>
             <li>Best Employee award in Treebo Bangalore.</li>
             <li>
@@ -218,21 +258,21 @@
           </ul>
         </section>
         <section class="mt-8">
-          <h2 class="text-2xl bold">Education</h2>
-          <div class="flex items-center justify-between">
-            <h3 class="text-xl bold mt-4">
+          <h2 class="text-xl md:text-2xl lg:text-3xl bold">Education</h2>
+          <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+            <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
               WOOLF University
             </h3>
-            <p>2025</p>
+            <p class="text-xs md:text-base">2025</p>
           </div>
-          <p>Pursuing MS from WOOLF University</p>
-          <div class="flex items-center justify-between">
-            <h3 class="text-xl bold mt-4">
+          <p class="text-xs md:text-base">Pursuing MS from WOOLF University</p>
+          <div class="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
+            <h3 class="text-lg md:text-xl lg:text-2xl bold mt-4">
               SRM University
             </h3>
-            <p>2016</p>
+            <p class="text-xs md:text-base">2016</p>
           </div>
-          <p>BE/B.Tech/BS</p>
+          <p class="text-xs md:text-base">BE/B.Tech/BS</p>
         </section>
       </div>
     </section>
