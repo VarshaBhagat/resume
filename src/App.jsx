@@ -4,6 +4,7 @@ import ProjectDescription from "./Component/ProjectDescription";
 import ProjcectExperience from "./Component/ProjcectExperience";
 import SubHeader from "./Component/SubHeader";
 import EductionDescription from "./Component/EductionDescription";
+import SkillList from "./Component/SkillList";
 
 const App = () => {
   return (
@@ -36,7 +37,7 @@ const App = () => {
           <a
             href="./varshaBhagatReact.pdf"
             target="_blank"
-            className="bg-sky-600 p-1 rounded-lg text-xs md:text-base w-max bg-[#00f5ff]"
+            className="p-1 rounded-lg text-xs md:text-sm w-max bg-[#00f5ff]"
           >
             Downloand Resume
           </a>
@@ -44,8 +45,7 @@ const App = () => {
       </header>
       <section className="flex">
         <div className="flex flex-col items-center bg-[#fed7d745] w-96">
-          <ul className="mt-8 p-8 text-sm md:text-base">
-            <h2 className="text-lg md:text-xl lg:text-2xl bold">Skills</h2>
+          <SkillList title="Skills">
             <li>React JS</li>
             <li>Jeykll</li>
             <li>SCSS</li>
@@ -56,12 +56,11 @@ const App = () => {
             <li>Visual Studio</li>
             <li>Jenkins</li>
             <li>JIRA</li>
-          </ul>
-          <ul className="mt-8 p-8 text-sm md:text-base">
-            <h2 className="text-lg md:text-xl lg:text-2xl bold">Language</h2>
+          </SkillList>
+          <SkillList title="Language">
             <li>English</li>
             <li>Hindi</li>
-          </ul>
+          </SkillList>
         </div>
         <div className="p-10">
           <section>
