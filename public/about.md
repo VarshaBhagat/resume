@@ -85,3 +85,8 @@ website and application, increasing user engagement by 25%.
 ##### SRM University - **B.Tech in Computer Science**
 **Date:** 2012-2016
 
+---
+
+### Articles
+
+- [JavaScript Intro](./#/JavaScriptIntro)
