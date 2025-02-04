@@ -20,7 +20,7 @@ const App = () => {
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold">
             Varsha Bhagat
           </h1>
-          <h2 className="text-xs md:text-xl lg:text-2xl bold">
+          <h2 className="text-xs md:text-xl lg:text-2xl font-bold">
             FE Senior Engineer
           </h2>
         </section>

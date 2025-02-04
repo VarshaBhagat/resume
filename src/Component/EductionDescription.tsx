@@ -9,7 +9,7 @@ const EductionDescription = ({ name, discription, date }: Props) => {
   return (
     <>
       <div className="flex flex-col items-start mb-4 md:items-center md:justify-between md:flex-row">
-        <h3 className="text-base md:text-lg lg:text-xl bold mt-4">{name}</h3>
+        <h3 className="text-base md:text-lg lg:text-xl font-bold mt-4">{name}</h3>
         <p className="text-xs md:text-base">{date}</p>
       </div>
       <p className="text-xs md:text-base">{discription}</p>
