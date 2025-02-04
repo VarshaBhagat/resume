@@ -12,4 +12,4 @@ React, HTML, CSS, TailwindCSS, Jekyll
 
 
 ## project url
-https://varshabhagat.github.io/resume/
+https://varshabhagat.github.io/resume/#/about/

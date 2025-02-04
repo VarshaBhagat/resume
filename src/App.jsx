@@ -42,7 +42,7 @@ const App = () => {
         </section>
       </header>
       <section className="flex">
-        <div className="flex flex-col items-center bg-[#fed7d745] w-96">
+        <div className="flex flex-col items-center bg-[#fed7d745] w-64 md:w-96">
           <SkillList title="Skills">
             <li>React JS</li>
             <li>Jeykll</li>
@@ -60,7 +60,7 @@ const App = () => {
             <li>Hindi</li>
           </SkillList>
         </div>
-        <div className="p-10">
+        <div className="pb-10 pt-10">
           <Router>
             <Routes>
               <Route path="/:slug" element={<Blog />} />
