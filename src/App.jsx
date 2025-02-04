@@ -187,13 +187,13 @@ const App = () => {
           <section className="mt-8">
             <SubHeader>Education</SubHeader>
             <EductionDescription
-              discription="WOOLF University"
-              name="Pursuing MS from WOOLF University"
+              discription="Pursuing MS from WOOLF University"
+              name="WOOLF University"
               date="2023-2025"
             />
             <EductionDescription
-              discription="SRM University"
-              name="B.Tech from Computer Science"
+              discription="B.Tech from Computer Science"
+              name="SRM University"
               date="2012-2016"
             />
           </section>
