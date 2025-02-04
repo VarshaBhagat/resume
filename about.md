@@ -78,12 +78,10 @@ website and application, increasing user engagement by 25%.
 ---
 
 ### Education
-##### WOOLF University
+##### WOOLF University - **MS**
 **Date:** 2023-2025
 
-Pursuing MS from WOOLF University
 
-##### SRM University
+##### SRM University - **B.Tech in Computer Science**
 **Date:** 2012-2016
 
-B.Tech from Computer Science
