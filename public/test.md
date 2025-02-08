@@ -9,6 +9,9 @@ This is some normal paragraph text.
 - **Bold text**
 - *Italic text*
 
+
+![Alt Text](Image URL or Path)
+
 ## Code Example
 
 ```js
