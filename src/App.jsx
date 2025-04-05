@@ -32,13 +32,6 @@ const App = () => {
           >
             varshabhagat07@gmail.com
           </a>
-          <a
-            href="./varshaBhagatReact.pdf"
-            target="_blank"
-            className="p-1 rounded-lg text-xs md:text-sm w-max bg-[#00f5ff]"
-          >
-            Downloand Resume
-          </a>
         </section>
       </header>
       <section className="flex">
