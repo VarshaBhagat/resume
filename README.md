@@ -13,3 +13,8 @@ React, HTML, CSS, TailwindCSS, Jekyll
 
 ## project url
 https://varshabhagat.github.io/resume/#/about/
+
+
+### build project and deploy
+npm run build
+npm run deploy
