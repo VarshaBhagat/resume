@@ -45,9 +45,9 @@ const Card = ({
             {children}
           </div>
         )}
-        {isShowDetails && (
+        {/* {isShowDetails && (
           <button onClick={() => updateShowDetails(true)}>Show Description</button>
-        )}
+        )} */}
       </div>
     </div>
   );
