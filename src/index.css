@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-img {
+    background-image: url("../src/assets/ocean.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    height: 600px;
+}
+.mid-sec {
+    background-color: white;
+    width: 80%;
+}
+.box-shadow {
+    box-shadow: 10px 10px 5px 12px lightblue;
+}
