@@ -17,18 +17,6 @@ const Card = ({
 }) => {
   return (
     <div className="box-shadow p-8 flex">
-      <div
-        className="flex items-center justify-center"
-        style={{
-          height: "50px",
-          width: "50px",
-          backgroundColor: "aqua",
-          marginRight: "20px",
-          borderRadius: "5px",
-        }}
-      >
-        <IoBagOutline color="white" size="20px" />
-      </div>
       <div className="flex flex-col">
         <div>
           <h3 className="font-bold mb-2">{header}</h3>
