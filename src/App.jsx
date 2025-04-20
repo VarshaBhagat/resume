@@ -15,7 +15,6 @@ const Card = ({
   children,
   updateShowDetails
 }) => {
-  console.log( "show", isShowDetails);
   return (
     <div className="box-shadow p-8 flex">
       <div
@@ -61,8 +60,8 @@ const App = () => {
         <header className="mid-sec box-shadow">
           <div className="header-img"></div>
           <div
-            className="flex justify-between"
-            style={{ padding: "20px 80px" }}
+            className="flex justify-between flex-col p-2 md:flex-row md:p-4"
+
           >
             <div>
               <h2
@@ -85,16 +84,14 @@ const App = () => {
               </p>
             </div>
             <a
-              className="text-xs md:text-base flex justify-center"
+              className="text-xs mt-2 px-4 py-2 md:text-base flex justify-center md:px-8 md:py-4"
               style={{
                 background: "#b21010",
                 alignItems: "center",
-                padding: "5px 60px",
                 borderRadius: "20px",
                 color: "white",
                 textTransform: "uppercase",
-                fontSize: "20px",
-                height: "50px",
+                width: "fit-content"
               }}
               href="tel:918971295611"
             >
@@ -118,9 +115,6 @@ const App = () => {
         <section className="mid-sec mt-16">
           <Header>Work History</Header>
           <div
-            style={{
-              width: "60%",
-            }}
           >
             <Card
               header="Frontend Engineering Lead"
